@@ -1,0 +1,259 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', 'sans-serif';
+}
+
+#container{
+    width: 100%;
+    height: 100vh;
+    background: black;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 150px;
+
+
+
+}
+
+header .pic {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    
+
+
+
+
+}
+
+header .pic img {
+    height: 100%;
+    width: 100%;
+    
+
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: azure;
+    padding: 0 15px;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+header nav ul li a:hover {
+    color: aqua;
+}
+
+header .button {
+    text-decoration: none;
+    color: #000;
+    padding: 5px 20px;
+    font-size: 18px;
+    background: aqua;
+    border-radius: 4px;
+}
+
+section {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+
+section .photo {
+    width: 30%;
+    height: 50%;
+
+}
+
+section .photo img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+
+section .info {
+    width: 40%;
+    height: 50%;
+    color: white;
+
+}
+
+section .info .first-line {
+    color: aqua;
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 15px;
+
+}
+
+section .info h3 {
+    color: white;
+    font-size: 45px;
+    font-weight: 200;
+
+}
+
+section .info h3 span {
+    color: aqua;
+}
+
+section .info .buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+} 
+section .info .buttons .down{
+    font-size: 25px;
+    color: aqua;
+    text-decoration: none;
+    display: inline-block;
+    width: 5px 30px ;
+    text-align: center;
+    padding: 10px;
+    border: 2px aqua solid;
+    transition: 0.5s all;
+}
+section .info .buttons .down:hover{
+    color: #fff;
+}
+
+
+
+
+/* End Section */
+
+
+
+/* start Box */
+.box{
+    width: 100%;
+    height: 130vh;
+}
+.b-title{
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.b-title h3{
+    font-size: 40px;
+    font-weight: 700;
+}
+.box .cards{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+
+}
+.box .cards .f-card{
+    width: 25%;
+    height: 60%;
+    background: #ffffff;
+    box-shadow: 1px 1px 15px 1px #ddd;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+/* hover cards */
+.f-card:hover{transform: scale(1.1,1.1);}
+
+/* f-card */
+.box .cards .f-card .icon a{
+font-size: 100px;
+color: blue;
+
+}
+
+.box .cards .f-card .dis{
+font-size: 30px;
+font-weight: 700;
+border-bottom: 3px solid #aaa;
+width: 100%;
+text-align: center;
+}
+
+.box .cards .f-card .inf button{
+  padding: 5px 20px ;
+  background: transparent;
+  font-size: 20px;
+  outline: none;
+  border-radius: 5px;
+transition: 0.5s all;
+cursor: pointer;
+color: blue;
+border: none;
+background: #EEE;
+box-shadow: 1px 1px 5px 1px #aaa;
+}
+.box .cards .f-card .inf button:hover{
+transform: scale(1.1);
+} 
+.box .cards .f-card .inf{
+    font-size: 25px;
+    font-weight: 500;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Strat Rights */
+.rights{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #333;
+    background-color: #fffbff;
+    width: 100%;
+    height: 10vh;
+}
+.rights p{
+    font-size: 20px;
+    font-weight: 500px;
+}
+.rights .icons a{
+    display: inline-block;
+font-size: 20px;
+margin: 0 15px;
+color: blue;
+}
+
+/* End Rights */
